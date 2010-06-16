@@ -1,0 +1,40 @@
+---
+abstract: 'Make data flow processing easy'
+author:
+  - 'Zahatski Aliaksandr zag@cpan.org'
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3601'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Flow
+provides:
+  Flow:
+    file: lib/Flow.pm
+    version: 0.1
+  Flow::Code:
+    file: lib/Flow/Code.pm
+  Flow::From::XML:
+    file: lib/Flow/From/XML.pm
+  Flow::Join:
+    file: lib/Flow/Join.pm
+  Flow::NamedPipesPack:
+    file: lib/Flow/Join.pm
+  Flow::Splice:
+    file: lib/Flow/Splice.pm
+  Flow::Split:
+    file: lib/Flow/Split.pm
+  Flow::Test:
+    file: lib/Flow/Test.pm
+  Flow::To::JXML:
+    file: lib/Flow/To/JXML.pm
+  Flow::To::XML:
+    file: lib/Flow/To/XML.pm
+requires:
+  JSON: 0
+  XML::Flow: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.1
