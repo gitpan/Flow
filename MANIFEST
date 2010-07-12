@@ -2,12 +2,14 @@ Build.PL
 Changes
 lib/Flow.pm
 lib/Flow/Code.pm
+lib/Flow/From/JXML.pm
 lib/Flow/From/XML.pm
 lib/Flow/Join.pm
 lib/Flow/Splice.pm
 lib/Flow/Split.pm
 lib/Flow/Test.pm
 lib/Flow/To/JXML.pm
+lib/Flow/To/Null.pm
 lib/Flow/To/XML.pm
 Makefile.PL
 MANIFEST
@@ -19,4 +21,5 @@ t/02_Control.t
 t/03_Join.t
 t/04_fromXML.t
 t/05_split.t
+t/06_JXML.t
 META.yml
