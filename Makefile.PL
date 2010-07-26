@@ -6,8 +6,8 @@ WriteMakefile
   'NAME' => 'Flow',
   'VERSION_FROM' => 'lib/Flow.pm',
   'PREREQ_PM' => {
-                   'JSON' => 0,
-                   'XML::Flow' => 0
+                   'JSON' => '2.21',
+                   'XML::Flow' => '0.85'
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [],

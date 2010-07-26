@@ -13,7 +13,7 @@ name: Flow
 provides:
   Flow:
     file: lib/Flow.pm
-    version: 0.2
+    version: 0.3
   Flow::Code:
     file: lib/Flow/Code.pm
   Flow::From::JXML:
@@ -37,8 +37,8 @@ provides:
   Flow::To::XML:
     file: lib/Flow/To/XML.pm
 requires:
-  JSON: 0
-  XML::Flow: 0
+  JSON: 2.21
+  XML::Flow: 0.85
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.2
+version: 0.3
