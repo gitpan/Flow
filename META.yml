@@ -4,7 +4,7 @@ author:
   - 'Zahatski Aliaksandr zag@cpan.org'
 configure_requires:
   Module::Build: 0.36
-generated_by: 'Module::Build version 0.3601'
+generated_by: 'Module::Build version 0.3607'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -13,7 +13,7 @@ name: Flow
 provides:
   Flow:
     file: lib/Flow.pm
-    version: 0.3
+    version: 0.5
   Flow::Code:
     file: lib/Flow/Code.pm
   Flow::From::JXML:
@@ -41,4 +41,4 @@ requires:
   XML::Flow: 0.85
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.3
+version: 0.5
