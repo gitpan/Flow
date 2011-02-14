@@ -4,6 +4,7 @@ lib/Flow.pm
 lib/Flow/Code.pm
 lib/Flow/From/JXML.pm
 lib/Flow/From/XML.pm
+lib/Flow/Grep.pm
 lib/Flow/Join.pm
 lib/Flow/Splice.pm
 lib/Flow/Split.pm

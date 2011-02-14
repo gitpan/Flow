@@ -13,13 +13,15 @@ name: Flow
 provides:
   Flow:
     file: lib/Flow.pm
-    version: 0.5
+    version: 0.6
   Flow::Code:
     file: lib/Flow/Code.pm
   Flow::From::JXML:
     file: lib/Flow/From/JXML.pm
   Flow::From::XML:
     file: lib/Flow/From/XML.pm
+  Flow::Grep:
+    file: lib/Flow/Grep.pm
   Flow::Join:
     file: lib/Flow/Join.pm
   Flow::NamedPipesPack:
@@ -41,4 +43,4 @@ requires:
   XML::Flow: 0.85
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.5
+version: 0.6
