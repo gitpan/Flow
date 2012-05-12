@@ -2,9 +2,11 @@
 abstract: 'Make data flow processing easy'
 author:
   - 'Zahatski Aliaksandr zag@cpan.org'
+build_requires: {}
 configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3607'
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.120351'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -13,34 +15,46 @@ name: Flow
 provides:
   Flow:
     file: lib/Flow.pm
-    version: 0.6
+    version: 0.7
   Flow::Code:
     file: lib/Flow/Code.pm
+    version: 0
   Flow::From::JXML:
     file: lib/Flow/From/JXML.pm
+    version: 0
   Flow::From::XML:
     file: lib/Flow/From/XML.pm
+    version: 0
   Flow::Grep:
     file: lib/Flow/Grep.pm
+    version: 0
   Flow::Join:
     file: lib/Flow/Join.pm
+    version: 0
   Flow::NamedPipesPack:
     file: lib/Flow/Join.pm
+    version: 0
   Flow::Splice:
     file: lib/Flow/Splice.pm
+    version: 0
   Flow::Split:
     file: lib/Flow/Split.pm
+    version: 0
   Flow::Test:
     file: lib/Flow/Test.pm
+    version: 0
   Flow::To::JXML:
     file: lib/Flow/To/JXML.pm
+    version: 0
   Flow::To::Null:
     file: lib/Flow/To/Null.pm
+    version: 0
   Flow::To::XML:
     file: lib/Flow/To/XML.pm
+    version: 0
 requires:
   JSON: 2.21
   XML::Flow: 0.85
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.6
+version: 0.7

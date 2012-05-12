@@ -4,7 +4,6 @@
 #
 #       AUTHOR:  Aliaksandr P. Zahatski, <zahatski@gmail.com>
 #===============================================================================
-#$Id$
 
 =head1 NAME
 
@@ -50,7 +49,7 @@ use warnings;
 use Exporter;
 our @ISA    = qw(Exporter);
 our @EXPORT = qw(create_flow);
-our $VERSION = 0.6;
+our $VERSION = 0.7;
 use constant MODS_MAP => {
     Splice  => 'Flow::Splice',
     Join    => 'Flow::Join',
@@ -91,7 +90,7 @@ sub __make_methods {
     *{ __PACKAGE__ . "::$pivate_method" } = sub {
         my $self = shift;
         my $res  = $self->$method(@_);
-
+        
         #ERROR STATE
         return $res unless ref($res);
         if ( ref($res) eq 'ARRAY' ) {
