@@ -15,7 +15,7 @@ name: Flow
 provides:
   Flow:
     file: lib/Flow.pm
-    version: 0.7
+    version: 0.8
   Flow::Code:
     file: lib/Flow/Code.pm
     version: 0
@@ -57,4 +57,4 @@ requires:
   XML::Flow: 0.85
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.7
+version: 0.8

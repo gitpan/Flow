@@ -29,7 +29,7 @@
    "provides" : {
       "Flow" : {
          "file" : "lib/Flow.pm",
-         "version" : "0.7"
+         "version" : "0.8"
       },
       "Flow::Code" : {
          "file" : "lib/Flow/Code.pm",
@@ -86,5 +86,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.7"
+   "version" : "0.8"
 }
