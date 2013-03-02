@@ -4,7 +4,7 @@
       "Zahatski Aliaksandr zag@cpan.org"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.120351",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110440",
    "license" : [
       "perl_5"
    ],
@@ -29,7 +29,7 @@
    "provides" : {
       "Flow" : {
          "file" : "lib/Flow.pm",
-         "version" : "0.8"
+         "version" : "0.9"
       },
       "Flow::Code" : {
          "file" : "lib/Flow/Code.pm",
@@ -86,5 +86,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.8"
+   "version" : "0.9"
 }
